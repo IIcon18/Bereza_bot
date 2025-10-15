@@ -1,0 +1,52 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# ===============================
+# Virtual environment
+# ===============================
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.env
+users.json
+# ===============================
+# PyCharm
+# ===============================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ===============================
+# macOS
+# ===============================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100/
+.Trashes
+*.swp
+*.swo
+
+# ===============================
+# Logs and temporary files
+# ===============================
+*.log
+*.tmp
