@@ -3,7 +3,7 @@ from bot.config.config import VIDEO_TUTORIAL_LINK, SUPPORT_USERNAME
 
 
 def main_menu():
-    "Главная менюшка"
+    "Главная менюшк с подпиской и поддержкой"
     keyboard = ReplyKeyboardMarkup(
         keyboard=[
             [KeyboardButton(text= "🧾 Моя подписка")],
