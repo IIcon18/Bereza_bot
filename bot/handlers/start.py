@@ -26,8 +26,10 @@ async def start_cmd(message: types.Message, command: CommandStart):
         save_users(users)
 
         text = (
-            f"✅ Привет, @{username}!\n"
-            f"Ваша подписка активирована 🔥\n\n"
+            f"✅ Привет, @{username}!\n\n"
+            f"Ты купил подписку на моменты записи от Владимира Димова 🔥\n\n"
+            f"В честь этого, мы даем тебе подарок для просмотра наших роликов на ютуб без головной боли \n\n"
+            f"📍Важно, подарок будет действовать пока ты являешься подписчиком этого канала \n\n"
             f"🔗 <b>VLESS-ссылка:</b>\n<code>{vless_link}</code>\n"
             f"📆 <b>Действует до:</b> {subscription_end}\n\n"
             f"▶️ Нажмите ниже, чтобы открыть видео-инструкцию."
@@ -36,9 +38,12 @@ async def start_cmd(message: types.Message, command: CommandStart):
         vless_link = users[user_id]["vless_link"]
         subscription_end = users[user_id]["subscription_end"]
         text = (
-            f"👋 Добро пожаловать обратно, @{username}!\n\n"
-            f"🔗 <b>Ваша VLESS-ссылка:</b>\n<code>{vless_link}</code>\n"
-            f"📆 <b>Подписка действует до:</b> {subscription_end}"
+            f"✅ Привет, @{username}!\n\n"
+            f"Твой подарок активен 🔥\n\n"
+            f"📍Напоминаем, подарок будет действовать пока ты являешься подписчиком этого канала \n\n"
+            f"🔗 <b>VLESS-ссылка:</b>\n<code>{vless_link}</code>\n\n"
+            f"📆 <b>Действует до:</b> {subscription_end}\n\n"
+            f"▶️ Нажмите ниже, чтобы открыть видео-инструкцию."
         )
 
     await message.answer(text, reply_markup=main_menu(), parse_mode="HTML")
