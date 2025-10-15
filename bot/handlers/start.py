@@ -1,7 +1,7 @@
 from aiogram import Router, types
 from aiogram.filters import CommandStart
 from bot.config.utils import load_users, save_users, generate_vless_link, create_subscription
-from bot.keyboards.inline import main_menu
+from bot.keyboards.Buttons import main_menu
 
 router = Router()
 

@@ -1,6 +1,6 @@
 from aiogram import Router, types, F
 from bot.config.utils import load_users
-from bot.keyboards.inline import back_button, main_menu
+from bot.keyboards.Buttons import back_button, main_menu
 
 router = Router()
 

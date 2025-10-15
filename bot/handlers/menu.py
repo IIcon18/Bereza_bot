@@ -4,7 +4,7 @@ from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
 router = Router()
 
 # Кнопка 1 — информация об аккаунте
-@router.message(F.text == "🧾 Мой аккаунт")
+@router.message(F.text == "🧾 Моя подписка")
 async def show_account_info(message: Message):
     # Здесь заглушка, но можно подключить базу данных позже
     text = (
