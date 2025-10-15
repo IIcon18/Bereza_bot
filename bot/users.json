@@ -1,0 +1,19 @@
+{
+  "123456789": {
+    "username": "test_user",
+    "vless_link": "vless://fake-uuid@vpn.example.com:443?...",
+    "subscription_end": "2025-11-14"
+  },
+  "1034600658": {
+    "username": "Moostwanteed",
+    "vless_link": "vless://6523d9a4-aa74-4da6-8400-b24e7442bda8@vpn.example.com:443?type=tcp&security=reality#user_1034600658",
+    "subscription_end": "2025-11-13",
+    "tribute_token": null
+  },
+  "948395442": {
+    "username": "ObiNiXX",
+    "vless_link": "vless://2c7206c7-0f3c-41b1-b4d3-e1b7c0dccd78@vpn.example.com:443?type=tcp&security=reality#user_948395442",
+    "subscription_end": "2025-11-13",
+    "tribute_token": null
+  }
+}
