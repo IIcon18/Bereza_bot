@@ -14,6 +14,14 @@ def main_menu():
     )
     return keyboard
 
+def home_inline_keyboard():
+    "Inline кнопка для видеоинструкции"
+    Keyboard = InlineKeyboardMarkup(
+        inline_keyboard=[
+            [InlineKeyboardButton(text= "Видеоинструкция", callback_data="VIDEO_TUTORIAL_LINK")]
+        ]
+    )
+    return Keyboard
 
 def back_button():
     "Кнопка назад"
